@@ -816,7 +816,7 @@ img {
 
   transition: border-color var(--transition);
 }
-.form-textarea:placeholder-shown {
+.form-textarea::placeholder {
   font-family: inherit;
   font-weight: 400;
   font-size: 12px;
